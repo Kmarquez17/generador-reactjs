@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{    
+    height: 100vh;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;  
+}
+
+.container h1{
+    text-decoration-line: underline;
+    text-decoration-color: white;
+}
+
+.container:hover{
+    background-color:springgreen;
+    /* font-size: 20px;
+    transition: background-color 1s ease, font-size .5s ease-in 1s; */    
+    animation: drawIn 2.5s 1s ease-in both;
+}
+
+@keyframes drawIn {
+    0% {
+      font-size: 40px;
+      opacity : 1;
+    }
+    25% {
+        font-size: 20px;
+        opacity : 0
+    }
+    50% {
+        font-size: 40px;
+        opacity : 1;
+    }
+    75% {
+        font-size: 20px;
+    }
+  }

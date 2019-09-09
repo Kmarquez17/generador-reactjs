@@ -1,13 +1,11 @@
 {
-  "name": "PlanCobro",
+  "name": "GeneradorReact",
   "version": "1.0.0",
   "description": "Plan de Cobro",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build:dev": "webpack-dev-server --config ./webpack.dev.config.js --mode development",
-    "build:prod": "webpack --env.NODE_ENV=local --env.production --progress",
-    "build": "webpack --mode production"
+    "build:prod": "webpack --env.NODE_ENV=local --env.production --progress"    
   },
   "repository": {
     "type": "git"
